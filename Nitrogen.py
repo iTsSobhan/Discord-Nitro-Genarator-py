@@ -25,7 +25,7 @@ class MyClient(discord.Client):
         if message.author == self.user:
             return
 
-        if message.content == '.gen nitro':
+        if message.content == '.gen':
             await message.channel.send(link + gen())
 client = MyClient()
 client.run('TOKEN_HERE')
