@@ -26,6 +26,7 @@ class MyClient(discord.Client):
             return
 
         if message.content == '.gen':
+            await message.channel.send('لینک نیتروی شما آمادست👇🏻')
             await message.channel.send(link + gen())
 client = MyClient()
 client.run('TOKEN_HERE')
