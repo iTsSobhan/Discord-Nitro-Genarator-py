@@ -31,4 +31,4 @@ class MyClient(discord.Client):
             await message.channel.send('لینک نیتروی شما آمادست👇🏻')
             await message.channel.send(link + gen())
 client = MyClient()
-client.run(os.gewtenv('TOKEN'))
+client.run(os.getenv('TOKEN'))
