@@ -16,18 +16,20 @@ def gen():
     return "".join(random.choices(chars, k=16))
 
 link = "https://discord.gift/"
+payam = 'Your Unlocked Nitro Code=>'
+embed=discord.Embed(title="Nitro Code Is Ready", url="https://discord.gg/xgcZNSjanP", description="**Linke Shoma Be DM Ferestade Shod Lotfan Check Konid**", footer='Created by Sobhan.SRZA#2153', color=discord.Color.blue() )
 
 class MyClient(discord.Client):
     async def on_ready(self):
         print('Logged on as', self.user)
-
     async def on_message(self, message):
         # don't respond to ourselves
         if message.author == self.user:
             return
-
         if message.content == '.gen':
-            await message.channel.send('لینک نیتروی شما آمادست👇🏻')
-            await message.channel.send(link + gen())
+          await message.channel.send(embed=embed)
+          await message.author.send(payam + link + gen())
+
+keep_alive()       
 client = MyClient()
 client.run(os.getenv('TOKEN'))
