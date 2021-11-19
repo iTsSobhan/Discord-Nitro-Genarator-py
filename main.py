@@ -17,16 +17,15 @@ embed=discord.Embed(title="Nitro Code Is Ready", url="https://discord.gg/xgcZNSj
 
 @client.command()
 async def gen(ctx):
-  if ctx.message.channel.id == (909003589479989258) or ctx.message.channel.id == (place-channel-id): #if you have some channel paste this code <or ctx.message.channel.id == (place-channel-id)> and enjoy :)
+  if ctx.message.channel.id == (place-channel-id) or ctx.message.channel.id == (place-channel-id): #if you have some channel paste this code <or ctx.message.channel.id == (place-channel-id)> and enjoy 🙂
     user = await client.fetch_user(f"{ctx.author.id}")
     chars = ['a', 'b', 'c', 'd',  'e','f', 'g', 'h','i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',
   '1','2','3','4','5','6','7','8','9','0'
   ]
     gen = "".join(random.choices(chars, k=16))
     await ctx.send(embed = embed)
-    await DMChannel.send(user,f"{link + gen}")       
+    await DMChannel.send(user,f"{payam + link + gen}")       
 
 
 keep_alive()       
-# client = MyClient()
 client.run(os.getenv('TOKEN'))
