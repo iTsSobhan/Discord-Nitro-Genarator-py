@@ -13,7 +13,10 @@ with open('helpcommand.txt', 'r') as f:
 message = (f_contents)
 link = "https://discord.gift/"
 payam = 'Your Unlocked Nitro Code=>'
-embed=discord.Embed(title="Nitro Code Is Ready", url="https://discord.gg/xgcZNSjanP", description="**Linke Shoma Be DM Ferestade Shod Lotfan Check Konid**", color=discord.Color.blue() )
+
+url="https://discord.gg/vgnhGXabNw", description="Salam Baradar Man Baraie Shoma Link Nitro Gift Ro Estekhraj Kardam 🙂 , Lotfan Dm Khodra Check Konid Ta Linke Khodra Bebinid 🙂 Baraye Estefade Mojaddad Az Bot Commande Ro Be Ro Bezanid **.gen**", color=discord.Color.blue())
+
+embed.set_footer(text="Created By Mr.SIN RE#1528")
 
 @client.command()
 async def gen(ctx):
