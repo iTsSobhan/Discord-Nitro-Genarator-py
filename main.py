@@ -14,8 +14,7 @@ message = (f_contents)
 link = "https://discord.gift/"
 payam = 'Your Unlocked Nitro Code=>'
 
-url="https://discord.gg/vgnhGXabNw", description="Salam Baradar Man Baraie Shoma Link Nitro Gift Ro Estekhraj Kardam 🙂 , Lotfan Dm Khodra Check Konid Ta Linke Khodra Bebinid 🙂 Baraye Estefade Mojaddad Az Bot Commande Ro Be Ro Bezanid **.gen**", color=discord.Color.blue())
-
+embed=discord.Embed(title="Nitro Code Is Ready", url="https://discord.gg/vgnhGXabNw", description="Salam Baradar Man Baraie Shoma Link Nitro Gift Ro Estekhraj Kardam 🙂 , Lotfan Dm Khodra Check Konid Ta Linke Khodra Bebinid 🙂 Baraye Estefade Mojaddad Az Bot Commande Ro Be Ro Bezanid **.gen**", color=discord.Color.blue())
 embed.set_footer(text="Created By Mr.SIN RE#1528")
 
 @client.command()
