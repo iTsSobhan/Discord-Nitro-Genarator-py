@@ -8,9 +8,6 @@ from discord import DMChannel
 
 client = commands.Bot(command_prefix = "place-prefix") 
 
-with open('helpcommand.txt', 'r') as f:
-  f_contents = f.read()
-message = (f_contents)
 link = "https://discord.gift/"
 payam = 'Your Unlocked Nitro Code=>'
 
