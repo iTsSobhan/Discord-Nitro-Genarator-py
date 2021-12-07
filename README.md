@@ -15,5 +15,7 @@ client = commands.Bot(command_prefix = "place-prefix")
 Dar Akhar Sar Baraie Nasb Package Haie Lazem Baiadchan Chiz Ra Dar Terminal Bezanid🧸
 
 `python3 -m poetry install`az yad nare ;)
+
 ` python3 -m pip `nasbe pip baraie nasbe package ha
+
 ` pip install -U discord.py `nasbe discord.py
