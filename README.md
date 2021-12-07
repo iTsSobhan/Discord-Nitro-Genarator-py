@@ -1,6 +1,6 @@
 # Run Kardan Bot
 Baraie Nasb Bot Be [Discord Developer Portal](https://discord.com/developers/applications) Berid Sepas
-Yek Application Besazid Va Token Bot Ro Bardarid Va Dar Qesmate `.evn` Bejaie BOT_TOKEN Bezarid
+Yek Application Besazid Va Token Bot Ro Bardarid Va Dar Qesmate `.env ` Bejaie BOT_TOKEN Bezarid
 ```css
 TOKEN=BOT_TOKEN
 
