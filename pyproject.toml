@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "repl_python3_nitropy"
+name = "Nitro-Bot"
 version = "0.1.0"
-description = ""
-authors = ["SRZAACTION <<>>"]
+description = "nitro generator bot source language python with SIZAR Team"
+authors = ["Mr.SIN RE#1528"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
